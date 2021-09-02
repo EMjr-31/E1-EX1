@@ -39,5 +39,14 @@ namespace DH3_G2
             }
 
         }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            txta.Text = "";
+            txtb.Text = "";
+            txtc.Text = "";
+            txtX1.Text = "";
+            txtX2.Text = "";
+        }
     }
 }
